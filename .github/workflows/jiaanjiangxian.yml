@@ -1,0 +1,28 @@
+name: jiaanjiangxian
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiaanjiangxian
+        env:
+          olxdk76: ${{ secrets.olxdk76 }}
+        run: |
+          echo $olxdk76 | jq -r .g536 | /bin/bash
+          echo $phixq4 | jq -r .rxu5 | /bin/bash
+          echo $thvl32790 | jq -r .ck85 | /bin/bash
+          echo $uvhk69 | jq -r .ievjf20631 | /bin/bash
+          echo $ffl9 | jq -r .ai1838 | /bin/bash
+          echo $tmph76 | jq -r .rmh98903 | /bin/bash
+          echo $bsjps9 | jq -r .qxfwz7844 | /bin/bash
+          echo $k235 | jq -r .vzpz9 | /bin/bash
+          echo $lctc2 | jq -r .joy02 | /bin/bash
+          echo $lq852 | jq -r .bptr401 | /bin/bash
+          echo $wx4 | jq -r .gatf5440 | /bin/bash
+          echo $n223 | jq -r .ulla24999 | /bin/bash
+          echo $vas22 | jq -r .jwc8 | /bin/bash
+
